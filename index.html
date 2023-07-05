@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpenseTracker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="content">
+    <div class="heading">SpendWise</div>
+    <div class="balance">
+        <div class="balancehead">YOUR BALANCE</div>
+        <div class="balancevalue" id="balance1"></div>
+    </div>
+    <div class="record">
+        <div class="income">
+            <div class="incomehead">INCOME</div>
+            <div class="incomevalue" style="color: green" id="income1"></div>
+        </div>
+        <div class="expense">
+            <div class="expensehead">EXPENSE</div>
+            <div class="expensevalue" style="color: red;" id="expense1"></div>
+        </div>
+    </div>
+    <div class="history">
+        <div class="historyhead">History</div>
+        <hr>
+        <ul class="historylist" id="hlist">
+               <!-- <li class="spent">
+                <div class="spenthead">Camera</div>
+                <div class="spentvalue">-100</div>
+               </li>
+               <li class="receive">
+                <div class="receivehead">Client</div>
+                <div class="receivevalue">+100</div>
+               </li> -->
+        </ul>
+    </div>
+    <div class="addtransaction">
+        <div class="addtransactionhead">Add new transaction</div>
+        <hr>
+        <div class="addtransactionentry">Text</div>
+        <div class="addtransactioninput" id="transaction1" onsubmit="addtext(this)"><input type="text" placeholder="Enter text..."></div>
+        <div class="amount">
+            <div class="amounthead" id="amount1">Amount</div>
+            <div class="amountinfo" id="amount2">(negative- expense,positive- income)</div>
+            <div class="amountinput" id="amount3"><input type="text" placeholder="Enter amount..."></div>
+            <button id="transaction" onclick="adddata(this)">Add transaction</button>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
