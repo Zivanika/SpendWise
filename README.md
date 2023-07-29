@@ -3,5 +3,5 @@
 <li>Real-Time Balance Calculation: The app calculates and updates the total balance in real-time by subtracting the total expenses from the total income. This feature enables users to have an accurate and instant understanding of their available funds.</li>
 <li>User-Friendly Interface: Spendwise offers a user-friendly interface that simplifies the process of entering expenses and income. The intuitive design ensures smooth navigation and a seamless user experience, making financial management hassle-free.</li>
 </ul>
-<img src="./Screenshot.png><img>
+<img src="./Screenshot.png"><img>
 <a href="https://hershyz-spendwise.netlify.app">Try Now🚀</a>
